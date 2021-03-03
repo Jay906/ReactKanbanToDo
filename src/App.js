@@ -23,7 +23,7 @@ function App() {
     }
     setFirstVisit(false);
     localStorage.setItem("firstVisit", JSON.stringify(false));
-  });
+  }, []);
 
   const initStatData = {
     labels: ["Undone", "On Progress", "Done"],
