@@ -11,7 +11,7 @@ localStorage.getItem("initState") ||
         },
         onProgress: {
           id: "onProgress",
-          title: "In progress",
+          title: "In Progress",
           taskIds: [],
         },
         done: {
